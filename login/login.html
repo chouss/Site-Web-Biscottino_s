@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="icon" href="../Home_Page/assets/biscottinos.ico">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <header class="header-container">
+        <br>
+        <nav>
+            <img src="biscottinos.png " class="logo">
+            <div class="naaav">
+                <a href="../Home_Page/home.html"><b>Home</b></a>
+                <a href="../Projet Web/Menu/Menu.html"><b>Menu</b></a>
+                <a href="../Projet Web/Sells/productPage.php"><b>Products</b></a>
+                <a href="../Projet Web/Cart/cartPage.php"><b>Your Cart</b></a>
+                <a href="../Projet Web/Contact/Contact.php"><b>Contact Us</b></a>
+                <a href="../login/login.html"><button class="myaccount_btn"><b>My Account</b></button></a>
+            </div>
+        </nav>
+
+        <hr class="line">
+
+    </header>
+
+
+    <div class="page">   
+        <p class="login_titre">
+            Log in
+        </p>
+        <div class="login-div">
+
+            <form class="login_form">
+             
+                
+                <label for="login-mail">Name:</label><br>
+                <input type="text" id="sign-in-mail" name="login-mail"><br>
+
+                <label for="login_pswd">Password:</label><br>
+                <input type="password" id="login_pswd" name="login_pswd"><br>
+
+                <div class="submit-renember">
+                    <label for="remember">Remember Me:</label>
+                    <input type="checkbox" id="remember" name="remember">
+                    <input type="submit" value="log in" id ='login_btm'>
+                </div>
+                <p>Don't have an account? <a href="#" id="signupLink">Sign up here</a>.</p>
+                <div class="error-messages"></div>
+            </form>
+        
+        </div>
+    </div>
+    
+    
+        <!-- hetha footer -->
+
+        <footer class="footer-container">
+            <div class="footer-section">
+                <img src="./assets/biscottinos.png" alt="Logo" class="footer-logo">
+            </div>
+            <div class="footer-section">
+                <ul class="footer-menu"><b>
+                    <li><span class="circle"></span><a href="../Home_Page/home.html">Home</a></li>
+                    <li><span class="circle"></span><a href="../Projet Web/Menu/Menu.html">Menu</a></li>
+                    <li><span class="circle"></span><a href="../Projet Web/Sells/productPage.php">Products</a></li>
+                    <li><span class="circle"></span><a href="../Projet Web/Contact/Contact.php">Contact Us</a></li>
+                    <li><span class="circle"></span><a href="../login/login.html">My Account</a></li>
+                </b>
+                </ul>
+            </div>
+            <div class="footer-work">
+                <p><b>Work Hours: </b>Monday-Friday 9am-5pm</p>
+                <p><b>Location:</b> Avenue Ali Bourguiba, Monastir, Monastir Governorate 5000</p>
+            </div>
+            <div class="footer-section">
+                <a href="https://www.instagram.com/biscottino_s/"><img src="./assets/facebook BLANC.png" alt="Facebook" class="footer-icon">
+                    <a href="https://www.facebook.com/biscottinos/"><img src="./assets/instagram BLANC.png" alt="Instagram" class="footer-icon">
+            </div>
+        </footer>
+        
+        <!-- footer youfa hne -->
+
+
+
+    <script src="login.js"></script>
+</body>

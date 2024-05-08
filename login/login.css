@@ -1,0 +1,191 @@
+body{
+    font-family: poppins;
+}
+
+
+/* nav bar tebda min lina */
+nav {
+    width: 100%;
+    background-color: #7f7e7d;
+    color: #f0efee;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999; /* bch navbar tji fok kokl chy*/
+    top:0;
+}
+
+nav a{
+    color: #f0efee;
+    margin: 0 15px;
+    text-decoration: none;
+} 
+.myaccount{
+    border:none;
+    background-color:#f0efee;
+    font-weight: bold;
+    border-radius: 3px;
+    color:  #191717;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+
+
+.page{
+    background-color: #191717;
+    width: 100%;
+    height: 650px;
+    display: flex;  /*khater habech yet7at fil wost*/
+    justify-content: center; 
+    /* align-items: center; */
+    
+}
+.login-div{
+    background-color: #CCC8AA;
+    width: 30%;
+    height: 320px;
+    display: flex; /* khater habech yet7at fil wost */
+    /* justify-content: center;  */
+    color: #191717;
+    position: absolute;
+    top:200px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding:  20px 2% 30px 2% ;
+
+}
+.login_form{
+    width: 100%;
+}
+.submit-renember{
+    display: grid;
+    grid-template-columns: 40% 5%  45%;
+    gap:5% ;
+    align-items: center;
+    justify-items: center;
+}
+
+.login_titre{
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    position: absolute;
+    top:100px;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+    color: #191717;
+  }
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding: 8px ;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #login_btm{
+    border:none;
+    background-color: #7D7C7C;
+    font-size: 150%;
+    margin-top: 20px; 
+    padding: 10px;
+    font-weight: bold;
+    width: 80%;
+    border-radius: 2px;
+    color: #191717;
+    cursor: pointer;
+
+}
+#login_btm:hover{
+    background-color: #191717 ;
+    color: #7D7C7C;
+
+}
+.make_acc{
+    position: absolute;
+    bottom: 10px;
+   right: 30%;
+   text-decoration: underline;
+   cursor: pointer;
+}
+  
+
+.error-messages{
+    color:rgb(218, 39, 39);
+}
+
+
+/* footer yebda min lina */
+
+.footer-container {
+    background-color: #7f7e7d;
+    color: #CCC8AA;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-work{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer-logo {
+    width: 200px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li a {
+    color: #CCC8AA;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #191717;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+li:hover{
+    background-color: #191717;
+}
+/* footer youfa hne/*
