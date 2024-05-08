@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+}
+
+
+/* nav bar tebda min lina */
+nav {
+    width: 100%;
+    background-color: #7f7e7d;
+    color: #f0efee;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999; /* bch navbar tjo fok kokl chy*/
+    top:0;
+}
+
+nav a{
+    color: #f0efee;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.myaccount_btn{
+    border:none;
+    background-color:#f0efee;
+    font-weight: bold;
+    border-radius: 3px;
+    color:  #191717;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+/* hatta lina */
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top:170px;
+    color:#CCC8AA;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc8ab;
+    box-sizing: border-box;
+}
+
+.button_sub {
+    width: 100%;
+    background-color: #ccc8ab;
+    color: #f0efee;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button_sub:hover {
+    background-color: #7f7e7d;
+}
+
+
+
+/* footer yebda min lina */
+
+.footer-container {
+    background-color: #7f7e7d;
+    color: #CCC8AA;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.work{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer-logo {
+    width: 200px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li a {
+    color: #CCC8AA;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #191717;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+li:hover{
+    background-color: #191717;
+}
+
+/* footer youfa hne*/
+/* wakt fama focus*/
+input:focus,
+textarea:focus {
+    outline: none; 
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.button_sub:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+/* blur */
+input:not(:focus),
+textarea:not(:focus) {
+    border-color: rgb(197, 36, 36); 
+    box-shadow: none; 
+}
+
+.button_sub:not(:focus) {
+    box-shadow: none; 
+}
+/**/
+/*wakt select*/
+#selected-input{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+    background-color: #1b1b1b;
+    color: #f0efee;
+    
+}
+
+
+/* nav bar tebda min lina */
+nav {
+    width: 100%;
+    background-color: #7f7e7d;
+    color: #f0efee;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999; /* bch navbar tjo fok kokl chy*/
+    top:0;
+}
+
+nav a{
+    color: #f0efee;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.myaccount_btn{
+    border:none;
+    background-color:#f0efee;
+    font-weight: bold;
+    border-radius: 3px;
+    color:  #191717;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+/* hatta lina */
+
+section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card .price {
+    font-weight: bold;
+    color: #fe980f;
+    margin: 8px 0;
+}
+
+.card p {
+    color: #757575;
+}
+
+.card form {
+    margin-top: 8px;
+}
+
+.card input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card button:hover {
+    background-color: #4cae4c;
+}
+
+
+
+/* footer yebda min lina */
+
+.footer-container {
+    background-color: #7f7e7d;
+    color: #CCC8AA;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.work{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer-logo {
+    width: 200px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li a {
+    color: #CCC8AA;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #191717;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+li:hover{
+    background-color: #191717;
+}
+
+/* footer youfa hne/*
