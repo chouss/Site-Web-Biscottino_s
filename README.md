@@ -14,21 +14,16 @@ The website consists of the following pages:
 6. **Login**: Allows registered users to log in to their accounts.
 7. **Sign Up**: Allows users to create a new account.
 
-## Contact
+## Usage
 
-For any inquiries or support, please contact:
+Once the website is running, you can navigate through the different pages using the navigation menu. You can explore the menu, view products, add items to your cart, contact the coffee shop, log in, or sign up for a new account.
 
-- Oussama Chaabane: oussama.chaabane05@example.com
-- Azer Abed: azer.abed@example.com
-- Aya Boussaid: aya.boussaid@example.com
-
-Feel free to reach out with any questions or feedback regarding the project. Thank you for your interest!
 
 ## Contact
 
 For any inquiries or support, please contact:
 
-- Oussama Chaabane: oussama.chaabane05@example.com
+- Oussama Chaabane: oussama.chaabane05@gmail.com
 - Azer Abed: azer.abed@example.com
 - Aya Boussaid: aya.boussaid@example.com
 
