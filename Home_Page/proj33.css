@@ -1,0 +1,141 @@
+body{
+    font-family: poppins;
+}
+
+
+#navb{
+    display: grid;
+    grid-template-columns: 10% 48% 10% 10% 10% 10%;
+    border-bottom : 2px solid white;
+    position:fixed;
+    top:0;
+    /* z-index: 1000; Ensure it's above other content */
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 120%;
+    font-family: sans-serif;
+    color:white;
+}
+#img33{
+    top:0;
+    position:absolute;
+    width: 98%;
+    
+}
+#herderr{
+    position:relative; 
+
+}
+
+
+
+#div-cakes{
+    width: 100%;
+    background-color: #191717;
+    padding-top: 7%;
+}
+#cakes{
+    width: 85%;
+    background-color:#CCC8AA;
+    margin : auto;
+    padding-top: 30px;
+
+
+}
+.sous-titre{
+    color:#7D7C7C;
+    font-weight: bold;
+    padding: 1% 5% ;
+    font-size: 240%;
+
+}
+#cakesss{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.cake1{
+    width: 100%;
+}
+#btn-more{
+    justify-content: center ;
+    align-items: center;
+}
+.btn_moore{
+    border:none;
+    background-color: #7D7C7C;
+    margin-left:35% ;
+    font-size: 150%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 30%;
+    border-radius: 2px;
+    color: #191717;
+    cursor: pointer;
+}
+
+.link{
+    cursor: pointer;
+}
+   
+
+
+#view-gallery{
+    background-color: #191717;
+    height: 1400px;
+    width: 100%;
+
+}
+#div-gallery{
+    background-color:#CCC8AA;
+    width: 85%;
+    height:950px;
+    margin: auto;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.btn{
+    border:none;
+    background-color: #7D7C7C;
+    font-size: 150%;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 2px;
+    color: #191717;
+    cursor: pointer;
+}
+
+#galley-img{
+    padding: auto;
+    width: 90%;
+}
+
+
+.up{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    position:fixed;
+    right :50px;
+    bottom: 50px;
+    z-index: 99;/*bch tji fouk el tswaer*/
+    color:#191717 ;
+    background-color:#CCC8AA ;
+    cursor: pointer;
+}
+#video1{
+    width: 100%;
+}

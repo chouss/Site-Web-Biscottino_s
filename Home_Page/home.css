@@ -1,0 +1,238 @@
+body{
+    font-family: poppins;
+}
+.blurry {
+    filter: blur(5px);
+}
+
+
+
+.header-container{
+    background-image: url('cups.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 930px; */
+    margin-top: 0px;
+}
+
+
+
+/* nav bar tebda min lina */
+nav {
+    width: 100%;
+    background-color: #7f7e7d;
+    color: #f0efee;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999; /* bch navbar tjo fok kokl chy*/
+    top:0;
+}
+
+nav a{
+    color: #f0efee;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.myaccount_btn{
+    border:none;
+    background-color:#f0efee;
+    font-weight: bold;
+    border-radius: 3px;
+    color:  #191717;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+}
+
+/* hatta lina */
+
+
+.line{
+    border-radius: 3px;
+    width: 90%;
+}
+.div2{
+    box-sizing: border-box;
+    background-color: #7F7E7D;
+    height: 270px;
+    display: flex;
+    width: 100%;
+    display: flex;
+}
+
+.div2 img{
+    width: 480px;
+
+}
+
+.div2 h4 {
+    font-size:40px ;
+    color: rgb(11, 33, 21);
+    display: flex;
+    flex-direction: column;
+   
+}
+.first-first{
+    margin-left: 30px;
+}
+.second{
+    margin-left: 90px;
+   
+}
+.first{
+    color: #ccc8aa;
+}
+.center-every-bite{
+    margin-left: 90px;
+}
+
+.picture-story{
+    /* background-image: url(./assets/espace2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: 75%;
+  
+}
+.story-container{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: none;
+    height: 550px;
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    
+}
+.date{
+    font-family: "Brush Script MT", cursive; font-size: 20px;
+    margin-left: 690px;
+    margin-bottom: 40px;
+}
+.text-container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
+.text-container h4{
+    margin-left: 20px;
+    
+}
+.story-para{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.text-container h4{
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+}
+.pic4{
+    display: flex;
+    width: 99%;
+}
+.pic4 img{
+    height: 260px;
+    width: 333.5px;
+}
+.small-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.location-container{
+    background-color: #113946;
+    height: 250px;
+    width: 100%;
+}
+.location-container{
+    text-align: center;
+}
+.location-container h3{
+    font-size: 40px;
+    margin-top: auto;
+    font-family:  Georgia, 'Times New Roman', Times, serif ;
+    margin-top: auto;
+    text-align: center;
+}
+.blur{
+    height: 40px;
+    filter: blur(0.px);
+    background-color: #ccc8aa;
+    text-align: center;
+    margin-top: 10px;
+}
+.diff{
+    color: rgb(70, 22, 5);
+}
+
+
+/* footer yebda min lina */
+
+.footer-container {
+    background-color: #7f7e7d;
+    color: #CCC8AA;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.work{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer-logo {
+    width: 200px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li a {
+    color: #CCC8AA;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #191717;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+li:hover{
+    background-color: #191717;
+}
+
+/* footer youfa hne/*
