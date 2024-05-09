@@ -24,7 +24,7 @@ Once the website is running, you can navigate through the different pages using 
 For any inquiries or support, please contact:
 
 - Oussama Chaabane: oussama.chaabane05@gmail.com
-- Azer Abed: azer.abed@example.com
-- Aya Boussaid: aya.boussaid@example.com
+- Azer Abed: ezer.abed@ensi-uma.tn
+- Aya Boussaid: aya.boussaid@ensi-uma.tn
 
 Feel free to reach out with any questions or feedback regarding the project. Thank you for your interest!
